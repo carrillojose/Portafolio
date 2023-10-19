@@ -1,0 +1,72 @@
+.item{
+    transition: .35s;
+    cursor: pointer;
+}
+.conteiner:hover > :not(:hover){
+    width: 10%;
+    opacity: .4;
+    transform: scale(0.9);
+}
+#mes{
+    margin: 9% 12%;
+}
+#vini{
+    margin: -24% 57%;
+}
+
+#pog{
+    margin: 35% 12%;
+}
+#cr{
+    margin: -53% 57%;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+/* Estilos específicos para laptops y PCs */
+@media only screen and (min-width: 601px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+}   
+
+/* Agregar estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    
+    .container {
+        padding: 0px;
+    }
+
+    .item {
+        margin-bottom: 0px;
+    }
+
+    #mes{
+        margin: 9% 3%;
+    }
+
+    #vini{
+        margin: 8% 3%;
+    }
+
+    #pog{
+        margin: 8% 3%;
+    }
+
+    #cr{
+        margin: 8% 3%;
+    }
+}

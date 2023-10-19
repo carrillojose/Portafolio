@@ -1,0 +1,108 @@
+
+
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+
+    text-align: center;
+    margin-top: -3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.enla{
+    width: 50%;
+    margin: 22px 510px;
+}
+.enla #e,#a{
+    box-shadow: 1px 3px 5px -2px rgb(131, 131, 131) ;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    margin: 0px 1px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Agrega una transición suave */
+}
+.enla #e:hover, .enla #a:hover {
+    background-color:black;
+    color:white;
+}
+#info{
+    margin-top: 30px;
+        text-align: none;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+h3{
+        margin: 53px 0px;
+        text-align: center;
+        font-size: 23px;
+    
+    }
+h2{
+        text-align: center;
+        font-size: 34px;
+        font-family: cursive;
+        color: rgb(46, 219, 250) ;
+    }
+#ini{
+    width: 2.5%;
+    margin: 0px 650px;
+}
+
+#a{
+    background-color: black;
+    color: white; 
+}
+/* Estilos específicos para dispositivos móviles con un ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    
+
+    .enla {
+            width: auto; /* Ajusta el ancho para dispositivos móviles */
+            margin: 35px 10px; /* Centra el elemento horizontalmente */
+        }
+    
+    }
+
+    /* Estilos específicos para dispositivos móviles con un ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    /* Ajustes para dispositivos móviles */
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        margin: 15px 0;
+        font-size: 20px;
+    }
+}
+
+/* Estilos específicos para laptops con un ancho entre 601px y 1024px */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajustes para laptops */
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        margin: 30px 0;
+        font-size: 22px;
+    }
+}
+
+/* Estilos específicos para PCs con un ancho mayor a 1024px */
+@media only screen and (min-width: 1025px) {
+    /* Ajustes para PCs */
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        margin: 40px 0;
+        font-size: 26px;
+    }
+}
+

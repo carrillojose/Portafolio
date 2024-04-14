@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#tex h3, #tex p, #segu h3, #segu p {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#tex, #segu {
+    text-align: left;
+    margin: 5%;
+}
+
+#Comp, #segu {
+    margin-top: 15%;
+}
+
+/* Estilos específicos para laptops y PCs */
+@media only screen and (min-width: 601px) {
+    .segun_enla {
+        width: 50%;
+        margin: 32px 614px;
+    }
+
+    .segun_enla #e, .enla #a {
+        box-shadow: 1px 3px 5px -2px rgb(131, 131, 131);
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 7px;
+        margin: 0px 3px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .segun_enla #e:hover, .enla #a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #Comp, #segu {
+        margin-left: -590px;
+        margin-top: 15%;
+    }
+
+    #Comp h3, #Comp p, #segu h3, #segu p {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #segu {
+        margin-top: 28%;
+    }
+
+    #Comp {
+        margin-top: 7%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .segun_enla {
+        width: 100%;
+        margin: 16px;
+    }
+
+    .segun_enla #e, .enla #a {
+        box-shadow: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 7px;
+        margin: 0px 3px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .segun_enla #e:hover, .enla #a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #Comp, #segu {
+        margin-left: 0;
+        margin-top: 10%;
+    }
+
+    #Comp h3, #Comp p, #segu h3, #segu p {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #segu {
+        margin-top: 15%;
+    }
+
+    #Comp {
+        margin-top: 7%;
+    }
+
+    video {
+        width: 100%;
+        margin: 10px 0; /* Agregado para dar espacio entre el texto y el video */
+    }
+}

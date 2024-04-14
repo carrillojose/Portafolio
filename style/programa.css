@@ -1,0 +1,85 @@
+.segun_enla{
+    width: 50%;
+    margin: 32px 610px;
+}
+.segun_enla #py,#java{
+    box-shadow: 1px 3px 5px -2px rgb(131, 131, 131) ;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    margin: 0px 3px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Agrega una transición suave */
+}
+.segun_enla #py:hover, .enla #java:hover {
+    background-color:black;
+    color:white;
+}
+/* Estilos específicos para laptops y PCs */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .segun_enla {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .segun_enla #py, .segun_enla #java {
+        box-shadow: 1px 3px 5px -2px rgb(131, 131, 131);
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 7px;
+        margin: 5px 0;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .segun_enla #py:hover, .segun_enla #java:hover {
+        background-color: black;
+        color: white;
+    }
+}
+@media only screen and (min-width: 601px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+
+    .segun_enla {
+        width: 50%;
+        margin: 32px 604px;
+    }
+
+    .segun_enla #py,#java{
+        box-shadow: 1px 3px 5px -2px rgb(131, 131, 131);
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 7px;
+        margin: 0px 3px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .segun_enla #e:hover, .enla #a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #a {
+        background-color: black;
+        color: white;
+    }
+}
